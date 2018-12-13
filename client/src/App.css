@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background: #111;
+  color: #39cccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+a, a:visited {
+  color: #0074D9;
+}
+.link-item {
+  border-bottom: 1px solid #aaa;
+  padding: 1em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 0 1em;
+}
+
+label {
+  display: block;
+  margin: 1em;
+}
+
+input, button {
+  padding: 0.5em;
+}
+
+.field {
+  margin-right: 0;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #01FF70;
+}
+
+input[type=submit] {
+  margin-left: 0;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #01FF70;
+  background: #01FF70;
+  color: #fff;
+}
+
+button, input[type=submit] {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button {
+  color: #fff;
+  border-radius: 3px;
+  margin: 0 1em;
+}
+
+.remove-link, .cancel {
+  background: #FF4136;
+  border: 1px solid #FF4136;
+}
+
+.edit-button, .done-button {
+  background: #0074D9;
+  border: 1px solid #0074D9;
+}
+
+.remove-tag {
+  line-height: 0;
+  border-radius: 50%;
+  width: 23px;
+  padding: 9px 0 11px;
+  background: #111;
+}
+.paginate button {
+  line-height: 0;
+  border-radius: 50%;
+  width: 30px;
+  padding: 13px 0 14px;
+  background: #111;
+}
+
+.paginate {
+  margin: 1em;
+}
+
+.links-filters, .media-filter, .tags-filter {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
